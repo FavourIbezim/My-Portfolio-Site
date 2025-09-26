@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio | About</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body class="font-inter bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full z-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="text-xl font-bold text-indigo-600">My Portfolio</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="hover:text-indigo-600 transition">Home</a>
+                    <a href="aboutus.html" class="text-indigo-600 font-medium">About</a>
+                    <a href="portfolio.html" class="hover:text-indigo-600 transition">Portfolio</a>
+                    <a href="article.html" class="hover:text-indigo-600 transition">Articles</a>
+                    <a href="contact.html" class="hover:text-indigo-600 transition">Contact</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white pb-4 px-4 shadow-md">
+            <a href="index.html" class="block py-2 hover:text-indigo-600">Home</a>
+            <a href="aboutus.html" class="block py-2 text-indigo-600">About</a>
+            <a href="portfolio.html" class="block py-2 hover:text-indigo-600">Portfolio</a>
+            <a href="article.html" class="block py-2 hover:text-indigo-600">Articles</a>
+            <a href="contact.html" class="block py-2 hover:text-indigo-600">Contact</a>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="pt-32 pb-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h1 class="text-3xl font-bold mb-12 text-center">About Me</h1>
+            
+            <div class="md:flex items-start gap-12">
+              
+                <div class="slideshow-container relative max-w-xl mx-auto">
+                    <!-- First video slide -->
+                    <div class="my-slides fade hidden">
+                        <video src="./public/Local Food Menu — Mozilla Firefox 2025-09-23 05-45-52.mp4" 
+                            muted playsinline></video>
+                        <!-- <div class="caption text-center mt-2">Project 1: Local food menu app</div> -->
+                    </div>
+
+                    <!-- Second video slide -->
+                    <div class="my-slides fade hidden">
+                        <video src="./public/SwiftNet - Fast & Reliable Internet — Mozilla Firefox 2025-09-11 05-46-54.mp4" 
+                            muted playsinline></video>
+                        <!-- <div class="caption text-center mt-2">Project 2: Responsive Web Design</div> -->
+                    </div>
+
+                    <!-- Third video slide -->
+                    <!-- <div class="my-slides fade hidden">
+                        <video src="./public/Media Player 2025-09-25 09-48-50.mp4" 
+                            muted playsinline></video>
+                        <div class="caption text-center mt-2">Project 3: AI-Assisted Surveillance Drone</div>
+                    </div> -->
+
+                    <!-- Fourth video slide -->
+                    <div class="my-slides fade hidden">
+                        <video src="./public/Home Page and 2 more pages - Personal - Microsoft​ Edge 2025-09-25 09-04-55.mp4" 
+                            muted playsinline></video>
+                        <!-- <div class="caption text-center mt-2">Project 3: Smart Attendance Tracker</div> -->
+                    </div>
+
+                    <!-- Fifth video slide -->
+                    <div class="my-slides fade hidden">
+                        <video src="./public/1736826774055.mp4" 
+                            muted playsinline></video>
+                        <!-- <div class="caption text-center mt-2">Project 3: AI-Assisted Surveillance Drone</div> -->
+                    </div>
+
+                    <!-- sixth video slide -->
+                    <div class="my-slides fade hidden">
+                        <video src="./public/Untitled video - Made with Clipchamp.mp4" 
+                            muted playsinline></video>
+                        <!-- <div class="caption text-center mt-2">Project 3: AI-Assisted Surveillance Drone</div> -->
+                    </div>
+                    
+                     <!-- eigth video slide -->
+                    <div class="my-slides fade hidden">
+                        <video src="./public/IMG_9439.MOV" 
+                            muted playsinline></video>
+                        <!-- <div class="caption text-center mt-2">Project 3: AI-Assisted Surveillance Drone</div> -->
+                    </div>
+
+                    <!-- ninth video slide -->
+                    <div class="my-slides fade hidden">
+                        <video src="./public/Whatsapp Video 2024-11-18 At 03.55.19 45F3e956.mp4" 
+                            muted playsinline></video>
+                        <!-- <div class="caption text-center mt-2">Project 3: AI-Assisted Surveillance Drone</div> -->
+                    </div>
+
+                    <!-- Navigation buttons -->
+                    <button class="prev-btn absolute top-1/2 left-0 -translate-y-1/2 px-3 py-2 bg-gray-800 text-white rounded">❮</button>
+                    <button class="next-btn absolute top-1/2 right-0 -translate-y-1/2 px-3 py-2 bg-gray-800 text-white rounded">❯</button>
+
+                    <!-- Dots -->
+                    <div class="text-center mt-3">
+                        <span class="dot inline-block w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer"></span>
+                        <span class="dot inline-block w-3 h-3 bg-gray-400 rounded-full mx-1 cursor-pointer"></span>
+                    </div>
+
+                    <div class="mb-8 flex justify-center"><img src="./public/IMG_8943.jpg" alt="Profile" 
+                        class="rounded-full w-64 h-64 object-cover shadow-lg">
+                    </div>
+                </div>
+
+
+                <div class="md:w-2/3">
+                    <h2 class="text-2xl font-semibold mb-4">Hello, I'm Favour Ibezim</h2>
+                    <p class="text-gray-600 mb-6">I am a Frontend Developer, Software Developer, and Data Scientist passionate about building innovative, scalable solutions. 
+                                                 With experience in web development, AI, and embedded systems, I have developed projects like a Real-Time Attendance System with Face Recognition, an AI-Assisted Surveillance Drone, and a Community Job Board. I enjoy turning complex problems into impactful, user-focused products.</p>
+                    <p class="text-gray-600 mb-6">When I'm not coding, you can find me listening to or creating music, hiking, or reading tech blogs.
+                                                 I believe in continuous learning and staying updated with the latest web technologies.</p>
+                    
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold mb-4">My Skills</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span>Python</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-indigo-600 h-2.5 rounded-full" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span>HTML/CSS</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-indigo-600 h-2.5 rounded-full" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span>JavaScript</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-indigo-600 h-2.5 rounded-full" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span>Data Science & ML</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-indigo-600 h-2.5 rounded-full" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="contact">
+                        <h3 class="text-xl font-semibold mb-4"><a href="./contact.html" class="text-gray-800 hover:text-indigo-800"> Get In Touch</a></h3>
+
+                        <div class="space-y-2">
+                            <div class="flex items-center">
+                                <i data-feather="mail" class="mr-2"></i>
+                                <span>favouribezim456@gmail.com</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-feather="phone" class="mr-2"></i>
+                                <span>+234 807-389-0608</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-feather="map-pin" class="mr-2"></i>
+                                <span>Abuja, Nigeria</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="mb-4 md:mb-0">© 2024 My Portfolio. All rights reserved.</p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/FavourIbezim" class="hover:text-indigo-400 transition"><i data-feather="github"></i></a>
+                    <a href="https://x.com/favouribezim456" class="hover:text-indigo-400 transition"><i data-feather="twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/favour-ibezim-a957431b5" class="hover:text-indigo-400 transition"><i data-feather="linkedin"></i></a>
+                    <!-- <a href="#" class="hover:text-indigo-400 transition"><i data-feather="instagram"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
